@@ -34,6 +34,6 @@ jobs:
         uses: actions/checkout@v4
       - uses: keninkujovic/gitlab-sync@2.0.0
         with:
-          gitlab_url: https://gitlab.com/rifqiahmadf/praktik-cicd-github.git
-          username: ${{ secrets.GITLAB_USERNAME }}
+          gitlab_url: ${{ secrets.GITLAB_URL }}
+          username: rifqiahmadf
           gitlab_pat: ${{ secrets.GITLAB_PAT }}
