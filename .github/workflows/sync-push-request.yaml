@@ -36,4 +36,4 @@ jobs:
         with:
           gitlab_url: https://gitlab.com/rifqiahmadf/praktik-cicd-github.git
           username: rifqiahmadf
-          gitlab_pat: glpat-jcDKxLn4NHzMf_uf2KjG
+          gitlab_pat: ${{ secrets.GITLAB_PAT }}
